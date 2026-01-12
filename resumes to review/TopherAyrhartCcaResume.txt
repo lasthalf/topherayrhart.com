@@ -1,0 +1,87 @@
+TOPHER AYRHART - CCA
+Jamf Administrator
+
+topher@topherayrhart.com
+281.253.7735
+topherayrhart.com
+Austin, TX
+
+Summary
+======
+Jamf certified system administrator with 5 years of experience managing Apple devices and servers in a fast-paced, large-scale enterprise environment. Extremely proficient with Jamf Pro, macOS, iOS, iPadOS and have a deep passion for Apple in the enterprise.
+
+
+Experience
+======
+DevOps Engineer
+Sprinklr
+06/2018 - Ongoing
+Austin, TX
+ - Managed and participated in migration of over 250 servers from Azure availability sets into distributed availability zones to ensure high availability of services
+ - Wrote and implemented Azure Application Gateway backend checks and auto remediation handler script which adds or removes instances from necessary backend pools
+ - Created script that continuously checks AWS and Azure load balancer backends to ensure high availability
+ - Rolled out Azure CDN to replace proxy servers in front of a blob store thus delivering content to customers at lower latency and up to a 20x speed increase
+
+Jamf Administrator (100% individual contributor)
+Sprinklr
+04/2017 - 05/2018
+ - Designed and implemented a lifecycle process for our fleet of 1500+ Macs that centered around automated deployment, maintenance, and decommissioning using Jamf Pro and Apple DEP
+ - Reduced ticket load by 20% by deploying custom Bash and Python scripts to end-users' computers which proactively configured a user’s environment to avoid the most common pitfalls
+ - Packaged OS upgrades, software, fonts, and files using Jamf Composer
+ - Helped maintain and troubleshoot an AWS environment composed of VPCs, EC2 instances, and S3 buckets which supported vital business functions
+
+(IT Manager)
+Sprinklr
+12/2015 - 03/2017
+ - Helped create a plan to enroll 1500+ globally distributed Macs, accomplishing this in less than 2 months
+ - Designed Sprinklr's initial Jamf Pro policies and profiles
+ - Setup Apple DEP, VPP, and PNS services for Sprinklr
+ - Planned and rolled out SSO for 20+ SaaS applications to 1500+ employees using SAML 2.0 and OAuth 2.0 protocols
+ - Redesigned and improved reliability of Meraki network infrastructure for Austin and San Francisco offices as well as being on-call for the day to day maintenance of 17 networks worldwide
+
+
+SKILLS
+======
+Technologies
+ - jamf pro
+ - unix/linux
+ - bash
+ - python
+ - aws
+ - azure
+ - networking
+ - sso
+
+
+CERTIFICATIONS
+======
+Certified Casper Administrator
+Jamf
+
+CCNA - Routing & Switching
+Cisco
+
+Certified Meraki Network Operator
+Cisco Meraki
+
+
+Strengths
+======
+Adaptability
+I take things as they come and discover the future one day at a time.
+
+Empathy
+I have the ability to understand the choices that others make. i.e. I can see both sides of a matter.
+
+Ideation
+I love that moment when I realize an elegantly simple solution to a seemingly complex concept.
+
+
+HOBBIES
+======
+Woodworking
+I am a creative individual. With all of the digital in my life I often find the need to make something physical. Designing and building objects with wood has been my most recent creative outlet.
+
+Disc Sports
+There's nothing better than tossing a disc with a friend on a nice day. Oh, ultimate and disc golf are good things too.
+

@@ -1,0 +1,119 @@
+TOPHER AYRHART
+DevOps Architect
+
+topher@ayrhart.net
+281-253-7735
+linkedin.com/in/topherayrhart/
+Austin, TX
+
+Experience
+======
+DevOps Engineer III
+Outside
+07/2021 - Ongoing
+Austin, Texas
+ - Designed and built out highly available, fault tolerant, and scalable greenfield infrastructures for both public internet-facing and private VPC-only applications and API endpoints using Amazon VPCs, ECS, ElasticCache, RDS and others
+ - Fully migrated DNS management and domain registration of 500+ zones into Cloudflare from dozens of registrars and DNS providers then deployed octoDNS enabling git-based DNS management for all zones while incurring only minimal downtime
+ - Performed POC and adopted Terraform as the standard infrastructure provisioning tool for the Outside DevOps team, later refactored all modules and migrated state files to Terraform Cloud enabling a git-based workflow
+ - Managed and maintained on-premise data centers running both bare metal and VM based applications and provided design guidance on migration of services to AWS as well as possible hybrid architectures
+ - Built out CI/CD pipelines in CircleCI and GitHub Actions for our teams running various microservices
+ - Regularly collaborated with the Cybersecurity team to ensure alignment on projects and the testing of novel security solutions
+ - Manage vendor relationships for multiple products and services
+
+DevOps Engineer
+Sprinklr
+06/2018 - 07/2021
+Austin, Texas
+ - Helped implement DR regions for several of our production environments with an RPO of 24 hours and an RTO of 4 hours
+ - Member of a team which built out a FedRAMP certified environment implementing SE Linux and meeting CIS level 1 requirements allowing for growth of client base into the US government sector
+ - Routinely manage server replacements and migrations while maintaining 100% uptime of services for a 24/7 high-volume, highly-available, enterprise-grade SaaS platform
+ - Incorporated automation into monitoring services which decreased the need for human intervention resulting in hours of work saved each week
+ - Regularly wrote monitoring scripts in shell and Python which give our team insight into how our production environment was performing and alert on conditions of varying degrees
+ - Rolled out Azure CDN to replace proxy servers in front of a blob store which resulted in cost savings and delivery of content to customers at lower latency and up to a 20x speed increase
+ - Regularly collaborated with the Cybersecurity team to ensure alignment on projects and the testing of novel security solutions
+
+Senior IT Manager
+Sprinklr
+04/2017 - 05/2018
+Austin, Texas
+ - Designed and implemented Quality of Service (QoS) traffic shaping rules, resulting in enhanced operational efficiency and improved productivity within our more bandwidth-constrained office environments
+ - Created initial configuration of our Jamf Pro environment and orchestrated a roll-out strategy that successfully put over 1700 globally distributed Macs under management within a span of less than two months
+ - Designed and implemented a lifecycle process for our fleet of over 1700 Macs, utilizing Jamf Pro and Apple Device Enrollment Program (DEP) for automated deployment, maintenance, and decommissioning of the hardware
+ - Achieved a 20% reduction in ticket load by deploying custom Bash and Python scripts to end-users’ computers which proactively configured the user’s environment to mitigate the most prevalent pitfalls
+ - Helped maintain and troubleshoot an AWS environment that relied on VPCs, EC2 instances, S3, and Route53 to support vital business functions
+
+IT Manager
+Sprinklr
+12/2015 - 03/2017
+Austin, Texas
+ - Redesigned and improved reliability of the Cisco Meraki network infrastructure for our Austin and San Francisco offices by configuring MX appliances with a warm spare and installing redundant internet circuits
+ - Planned and rolled out SSO for 20+ SaaS applications to 1500+ employees using SAML 2.0 and OAuth 2.0 protocols first with Okta then later migrating to Google SAML apps
+ - Managed 5 migrations of employee email, calendar, contacts, and drive data after as acquisitions to offer a seamless transition to Sprinklr's Google Apps infrastructure
+ - Worked with vendors to trial and implement new products
+ - Provided global and local technical support for 1500+ people in 13 offices across North America, South America, Europe, and Asia
+
+
+Summary
+======
+Known for a collaborative mindset, exceptional communication skills, and a deep enthusiasm for technology, I thrive in environments where I can bridge the gap between technical solutions and business needs. Excited to contribute to forward-thinking projects that empower engineering teams to create maintainable, reliable, and secure code as they go.
+
+
+Languages
+======
+HCL/Terraform
+
+Shell/Bash
+
+Ansible
+
+Python
+
+Javascript/Node
+
+
+SKILLS
+======
+ - Git/SCM
+ - Azure Cloud
+ - Azure DevOps
+ - Containers
+ - Terraform
+ - Bash/Shell
+ - Ansible
+ - Serverless
+ - Docker
+ - YAML
+ - Kubernetes
+ - APIs
+ - Linux/Debian/Red Hat
+ - Ubuntu
+
+
+CERTIFICATIONS
+======
+AWS Certified Solutions Architect – Associate
+Amazon Web Services (AWS)
+
+CCNA Routing & Switching
+Cisco
+
+Certified Meraki Network Operator
+Cisco Meraki
+
+
+Training / Courses
+======
+AWS Certified Advanced Networking - Specialty Exam Prep
+
+
+Strengths
+======
+Creative
+I love creating and building new things. If I'm not making, I'm stagnating. I need to create to thrive.
+
+Passionate
+I have a strong passion for the things I care about, often encouraging others with my enthusiasm.
+
+Openness
+I aim to have a growth mindset and possess a willingness to be open to new ideas. Often the best ideas are in the places I least expect.
+

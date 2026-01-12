@@ -1,0 +1,114 @@
+TOPHER AYRHART
+CISCO MERAKI CERTIFIED DEVOPS ENGINEER
+
+topher@ayrhart.net
+281-253-7735
+linkedin.com/in/topherayrhart/
+Austin, TX
+
+Experience
+======
+DevOps Engineer III
+Outside
+07/2021 - Ongoing
+Austin, Texas
+ - Designed and built out highly available, fault tolerant, and scalable greenfield infrastructures for both public internet-facing and private VPC-only applications and API endpoints using Amazon VPCs, ECS, ElasticCache, RDS
+ - Performed POC and adopted Terraform as the standard infrastructure provisioning tool for the Outside DevOps team, later refactored all modules and migrated state files to Terraform Cloud enabling a git-based workflow
+ - Fully migrated DNS management and domain registration of 500+ zones into Cloudflare from dozens of registrars and DNS providers then deployed octoDNS enabling git-based DNS management for all zones while incurring only minimal downtime
+ - Managed and maintained on-premise data centers running both bare metal and VM based applications and provided design guidance on migration of services to AWS as well as possible hybrid architectures
+ - Built out CI/CD pipelines in CircleCI and GitHub Actions for our teams running various microservices
+ - Run client VPN solutions for engineering team which provides members with access to assets in private networks both in the cloud and in our data centers
+ - Manage vendor relationships for multiple products and services
+
+DevOps Engineer
+Sprinklr
+06/2018 - 07/2021
+Austin, Texas
+ - Helped implement DR regions for several of our production environments with an RPO of 24 hours and an RTO of 4 hours
+ - Member of a team which built out a FedRAMP certified environment implementing SE Linux and meeting CIS level 1 requirements allowing for growth of client base into the US government sector
+ - Routinely manage server replacements and migrations while maintaining 100% uptime of services for a 24/7 high-volume, highly-available, enterprise-grade SaaS platform
+ - Incorporate automation into monitoring services which decreases the need for human intervention resulting in hours of work saved each week
+ - Regularly write monitoring scripts in shell and Python which give our team insight into how our production environment is performing and alert on conditions of varying degrees
+ - Rolled out Azure CDN to replace proxy servers in front of a blob store which resulted in cost savings and delivery of content to customers at lower latency and up to a 20x speed increase
+ - Regularly collaborated with the Cybersecurity team to ensure alignment on projects and the testing of novel security solutions
+
+Senior IT Manager
+Sprinklr
+04/2017 - 05/2018
+Austin, Texas Area
+ - Implemented and deployed Quality of Service (QoS) traffic shaping rules, resulting in enhanced operational efficiency and improved productivity within our more bandwidth-constrained office environments
+ - Created initial configuration of our Jamf Pro environment and orchestrated a roll-out strategy that successfully put over 1500 globally distributed Macs under management within a span of less than two months
+ - Designed and implemented a lifecycle process for our fleet of over 1700 Macs, utilizing Jamf Pro and Apple Device Enrollment Program (DEP) for automated deployment, maintenance, and decommissioning
+ - Achieved a 20% reduction in ticket load by implementing custom Bash and Python scripts on end-users’ computers which proactively configured the user’s environment to mitigate the most prevalent pitfalls
+ - Helped maintain and troubleshoot an AWS environment that relied on VPCs, EC2 instances, S3, and Route53 to support vital business functions
+
+IT Manager
+Sprinklr
+12/2015 - 03/2017
+Austin, Texas Area
+ - Redesigned and improved reliability of the Cisco Meraki network infrastructure for our Austin and San Francisco offices by configuring MX appliances with a warm spare and installing redundant internet circuits
+ - Planned and rolled out SSO for 20+ SaaS applications to 1500+ employees using SAML 2.0 and OAuth 2.0 protocols first with Okta then later migrating to Google SAML apps
+ - Managed 5 migrations of employee email, calendar, contacts, and drive data after as acquisitions to offer a seamless transition to Sprinklr's Google Apps infrastructure
+ - Worked with vendors to trial and implement new products
+ - Provided global and local technical support for 1500+ people in 13 offices across North America, South America, Europe, and Asia
+
+
+Summary
+======
+I bring a unique blend of experience and passion to this role. For 7 years I managed Cisco Meraki networks at Sprinklr offices worldwide becoming a major fan of their ecosystem. During my time as IT manager I designed and built out networks for our offices, overseeing two in-person and eleven remote locations. Currently, at Outside, I am the designated expert for AWS networking. I design and utilize Terraform to build AWS networks (VPCs) for our diverse teams. Notably, I successfully deployed two private hub-and-spoke networks spanning across six accounts and three regions, enabling secure private connectivity between our applications housed in over a dozen VPCs. Additionally, within our two data centers, I manage firewalls, switches, configure AWS Direct Connect, and make necessary equipment installations or removals. I would like to bring my passion and drive for networking to Sixth Street Partners and help the team excel in delivering exceptional results.
+
+
+Certifications
+======
+Certified Meraki Network Operator
+Cisco Meraki
+
+CCNA Routing & Switching
+Cisco
+
+AWS Certified Solutions Architect – Associate
+Amazon Web Services (AWS)
+
+
+Training / Courses
+======
+AWS Certified Advanced Networking - Specialty Exam Prep
+
+
+Skills
+======
+ - Linux/Debian/Red Hat
+ - Windows
+ - macOS
+ - Cisco Meraki Ecosystem
+ - Cloud Networking
+ - Network Monitoring
+ - Network Security
+ - Firewall configuration
+ - Client VPN
+ - Site-to-site VPN
+ - Scripting
+ - REST API
+ - Routing
+
+
+Strengths
+======
+Creative
+I love creating and building new things. If I'm not making, I'm stagnating. I need to create to thrive.
+
+Passionate
+I have a strong passion for the things I care about often encouraging others with my enthusiasm.
+
+Openness
+I aim to have a growth mindset and possess a willingness to be open to new ideas. Often the best ideas are in the places I least expect.
+
+
+Interests
+======
+Art
+I enjoy getting into the zone and painting on raw canvas or art paper.
+
+Photography
+As a former professional photographer, I never stop creating new work. Whether with professional gear or using my iPhone it's always fun to challenge myself in new ways with photography.
+

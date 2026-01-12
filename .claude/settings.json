@@ -12,13 +12,7 @@
       "Task",
       "TodoWrite"
     ],
-    "ask": [
-      "Bash(git commit*)",
-      "Bash(git push*)",
-      "Bash(git merge*)",
-      "Bash(git rebase*)",
-      "Bash(git reset*)"
-    ],
+    "ask": [],
     "deny": []
   },
   "prompt": "This is a personal landing page project. Before starting work, run 'beads onboard' to understand the current project state and available beads.",

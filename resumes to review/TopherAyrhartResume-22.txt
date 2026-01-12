@@ -1,0 +1,159 @@
+TOPHER AYRHART
+AWS Certified DevOps Engineer
+
+topher@topherayrhart.com
+281.253.7735
+Austin, TX
+
+Summary
+======
+Using my knowledge of AWS, Azure, and GCP services, scripting abilities, networking skills, and container orchestration experience I automate and maintain a fleet of over 10,000 virtual servers distributed across more than a dozen regions in 3 public clouds to deliver a 24/7 high-volume, highly-available, enterprise-grade SaaS platform to customers worldwide. I am excited about designing and working with AWS services, cloud architectures, well-crafted automation, networking, and container and serverless technologies.
+
+
+TECHNOLOGIES/SKILLS
+======
+AWS
+ - ECS
+ - EKS
+ - ECR
+ - IAM
+ - CodeCommit
+ - CodeBuild
+ - CodeDeploy
+ - CodePipeline
+ - Blue/Green Deployments
+ - All ELB Types
+ - EFS
+ - ElastiCache
+ - VPCs / Networking
+ - Route 53
+ - CloudFront
+ - S3
+ - Athena
+ - EC2
+ - Auto Scaling
+ - CloudFormation
+ - CloudWatch
+ - CloudTrail
+ - SNS
+
+Azure
+ - Virtual Machines
+ - Virtual machine scale sets
+ - Virtual networks
+ - Application Gateways
+ - Load Balancers
+ - Blob storage
+ - CDN Profiles
+ - Key Vaults
+
+Open Source Tools
+ - Git
+ - Ansible
+ - Jenkins
+ - Bash/Zsh
+ - Sensu
+ - Docker
+ - Kubernetes
+ - Helm
+ - Rancher
+ - Red Hat/Centos/Fedora
+ - Ubuntu
+ - Syslog
+ - FTP
+ - LDAP
+
+
+Experience
+======
+DevOps Engineer
+Sprinklr
+06/2018 - Ongoing
+Austin, TX
+ - Implementing DR regions for several of our production environments with an RPO of 24 hours and an RTO of 4 hours
+ - Member of a team building out a FedRAMP-certified environment with CIS level 1 requirements and SELinux allowing for growth of client base into the US government sector
+ - Manage server replacements and migrations while maintaining 100% uptime of services for a 24/7 high-volume, highly-available, enterprise-grade SaaS platform
+ - Incorporate automation into monitoring services which decreases the need for human intervention resulting in hours of work saved each week
+ - Regularly write monitoring scripts that give our team insight into how our production environment is performing and alert on conditions of varying degrees
+ - Rolled out Azure CDN to replace proxy servers in front of a blob store which resulted in cost savings and delivery of content to customers at lower latency and up to a 20x speed increase
+
+Senior IT Manager
+Sprinklr
+04/2017 - 05/2018
+ - Performed initial configuration of our Jamf Pro environment and helped plan roll-out which put 1500+ globally distributed Macs under management in less than 2 months
+ - Designed and implemented a lifecycle process for our fleet of 1500+ Macs that centered around automated deployment, maintenance, and decommissioning using Jamf Pro and Apple DEP
+ - Reduced ticket load 20% by deploying custom Bash and Python scripts to end-users' computers which proactively configured a user’s environment to avoid the most common pitfalls
+ - Packaged OS upgrades, software, fonts, and files using Jamf Composer
+ - Helped maintain and troubleshoot an AWS environment that relied on VPCs, EC2 instances, S3 buckets, and Route53 to support vital business functions
+
+IT Manager
+Sprinklr
+12/2015 - 03/2017
+ - Planned and rolled out SSO for 20+ SaaS applications to 1500+ employees using SAML 2.0 and OAuth 2.0 protocols first with Okta then later migrating to Google SAML apps
+ - Redesigned and improved reliability of Cisco Meraki network infrastructure for Austin and San Francisco offices as well as being on-call for the day to day maintenance of 17 networks worldwide
+ - Managed 5 migrations of employee email, calendar, contacts, and drive data after as acquisitions to offer a seamless transition to Sprinklr's Google Apps infrastructure
+ - Worked with vendors to trial and implement new products
+ - Provided global and local technical support for 1500+ people in 13 offices across North America, South America, Europe, and Asia
+
+IT Specialist
+Sprinklr
+01/2015 - 12/2015
+ - Managed 3 migrations of employee email, calendar, contacts, and drive data after as acquisitions to offer a seamless transition to Sprinklr's Google Apps infrastructure
+ - Supervised interdepartmental projects
+ - Worked with vendors to trial and implement new products
+ - Provided global and local technical support for 1300+ people in 13 offices across North America, South America, Europe, and Asia
+
+
+CERTIFICATIONS
+======
+Certified Solutions Architect – Associate
+AWS
+
+CCNA - Routing & Switching
+Cisco
+
+Certified Meraki Network Operator
+Cisco Meraki
+
+Certified Casper Administrator (CCA)
+Jamf
+
+G Suite Certified Administrator
+Google
+
+
+Find me online
+======
+LinkedIn
+linkedin.com/in/topherayrhart
+
+
+CURRENT AND RECENT COURSES ON A CLOUD GURU AND UDEMY
+======
+Amazon ECS & Fargate Master Class
+
+AWS Certified DevOps Engineer Professional Exam Prep
+
+Python 3 Scripting for System Administrators
+
+
+LANGUAGES
+======
+Shell scripting
+
+Python
+
+Ruby
+
+
+Interests
+======
+Most things Apple
+I read Apple news and white papers from the company on an almost daily basis. Keeping up with Apple and using its technologies are among my favorite things to do.
+
+Woodworking
+I like to build things. Sometimes that's a well-crafted script, but other times I need to go analog and work with my hands. Woodworking is a great creative outlet for me in that way.
+
+Photography
+As a former professional photographer I never stop making and retouching photos. Whether with professional gear or using my iPhone it's always fun to challenge myself in new ways with photography.
+

@@ -1,0 +1,119 @@
+TOPHER AYRHART
+AWS CERTIFIED ENGINEER – DEVOPS & IT AUTOMATION
+
+topher@ayrhart.net
+281-253-7735
+linkedin.com/in/topherayrhart
+Austin, TX
+
+Experience
+======
+DevOps Engineer III
+Outside
+07/2021 - Ongoing
+Austin, Texas
+ - Designed and implemented highly available, fault-tolerant, and scalable greenfield infrastructures for public internet-facing and private VPC-only applications, including API endpoints, using Amazon VPCs, ECS, ElastiCache, and RDS.
+ - Conducted a POC and established Terraform as the standard IaC tool for the Outside DevOps team; refactored modules and migrated state files to Terraform Cloud, enabling a streamlined, git-based workflow.
+ - Migrated DNS management and domain registration for 500+ zones to Cloudflare from multiple registrars and providers; implemented octoDNS to enable git-based DNS management with minimal downtime.
+ - Built out CI/CD pipelines in CircleCI and GitHub Actions for our teams running various microservices.
+ - Run client VPN solutions for engineering team which provides members with access to assets in private networks both in the cloud and in our data centers.
+ - Recommended Kandji as an endpoint management solution and collaborated with the Outside IT team on its design and successful deployment.
+ - Guided an IT staff member in transitioning to a DevOps career path by providing mentorship, technical training, and career development support.
+
+DevOps Engineer
+Sprinklr
+06/2018 - 07/2021
+Austin, Texas
+ - Managed server replacements and migrations while ensuring 100% uptime for a 24/7 high-volume, highly available enterprise-grade SaaS platform.
+ - Automated monitoring services to reduce human intervention, saving hours of work each week.
+ - Developed shell and Python monitoring scripts to provide insights into production environment performance and generate alerts for varying conditions.
+ - Deployed Azure CDN to replace proxy servers in front of a blob store, achieving cost savings, reduced latency, and up to a 20x increase in content delivery speed for customers.
+ - Collaborated with the Cybersecurity team to ensure project alignment and test innovative security solutions.
+ - Implemented disaster recovery (DR) regions for multiple production environments, achieving an RPO of 24 hours and an RTO of 4 hours.
+ - Contributed to building a FedRAMP-certified environment by implementing SE Linux and meeting CIS Level 1 requirements, enabling expansion into the US government sector.
+
+Senior IT Manager
+Sprinklr
+04/2017 - 05/2018
+Austin, Texas Area
+ - Configured the initial Jamf Pro environment and executed a roll-out strategy that brought over 1,500 globally distributed Macs under management in under two months.
+ - Designed and implemented a lifecycle management process for a fleet of 1,700+ Macs, leveraging Jamf Pro and Apple Device Enrollment Program (DEP) for automated deployment, maintenance, and decommissioning.
+ - Reduced ticket load by 20% through custom Bash and Python scripts that proactively configured end-user environments to address common issues.
+ - Maintained and troubleshot an AWS environment utilizing VPCs, EC2 instances, S3, and Route53 to support critical business functions.
+ - Implemented Quality of Service (QoS) traffic shaping rules, enhancing operational efficiency and productivity in bandwidth-constrained office environments.
+
+IT Manager
+Sprinklr
+12/2015 - 03/2017
+Austin, Texas Area
+ - Planned and implemented SSO for 20+ SaaS applications across 1,500+ employees using SAML 2.0 and OAuth 2.0 protocols, initially with Okta and later migrating to Google SAML apps.
+ - Redesigned and enhanced the reliability of Cisco Meraki network infrastructure in Austin and San Francisco offices by configuring MX appliances with warm spares and implementing redundant internet circuits.
+ - Managed five migrations of employee email, calendar, contacts, and drive data post-acquisitions, ensuring a seamless transition to Sprinklr's Google Apps infrastructure.
+ - Collaborated with vendors to evaluate and implement new products.
+ - Provided technical support to 1,500+ users across 13 offices globally, spanning North America, South America, Europe, and Asia.
+
+
+Summary
+======
+Experienced IT and DevOps Engineer with expertise in secure, scalable cloud infrastructure and privileged access management. Proficient in Terraform, scripting, and automation to enhance operational efficiency and security. Passionate about contributing to StrongDM’s mission of Zero Trust security and seamless access management.
+
+
+CERTIFICATIONS
+======
+AWS Certified Solutions Architect – Associate
+Amazon Web Services (AWS)
+
+Certified Casper Administrator (now Jamf 300)
+Jamf
+
+CCNA Routing & Switching
+Cisco
+
+
+Skills
+======
+ - CI/CD
+ - Automation
+ - Scripting
+ - APIs
+ - macOS
+ - Windows
+ - Linux/Debian/Red Hat
+ - AWS
+ - Azure
+ - GCP
+ - Jamf Pro
+ - Kandji
+ - SSO
+ - Network Security
+ - ZTNA
+
+
+Training / Courses
+======
+AWS Certified Advanced Networking - Specialty Exam Prep
+
+
+Strengths
+======
+Creative
+I thrive on creating and building new things—if I’m not making, I’m stagnating. Creativity fuels me.
+
+Passionate
+I’m deeply passionate about the things I care about and love inspiring others with my enthusiasm.
+
+Openness
+I strive to maintain a growth mindset and stay open to new ideas, often finding the best insights in the most unexpected places.
+
+
+Interests
+======
+Art
+I enjoy getting into the zone, working on raw canvas or art paper, fully embracing the creative process.
+
+Photography
+As a former professional photographer, I continuously create new work, whether using professional gear or my iPhone, always enjoying the challenge of exploring new approaches to photography.
+
+Apple
+I regularly read Apple news and white papers, staying up-to-date with the latest developments and technologies from the company.
+

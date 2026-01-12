@@ -1,0 +1,175 @@
+TOPHER AYRHART
+AWS Certified DevOps Engineer
+
+topher@topherayrhart.com
+281.253.7735
+Austin, TX
+
+Summary
+======
+Expert in crafting customized cloud solutions using IaC tooling with a proven track record in AWS, Azure, and Google Cloud. I have automated and maintained large fleets of Kubernetes and ECS clusters along with thousands of virtual servers distributed worldwide to deliver 24/7 high-volume, highly-available, enterprise-grade SaaS platforms and APIs to customers worldwide. I am excited about designing and working with AWS services, cloud architectures, well-crafted automation, networking, container orchestration, and serverless technologies.
+
+
+TECHNOLOGIES/SKILLS
+======
+AWS
+ - VPC/Networking
+ - VPC Peering
+ - Transit Gateways
+ - ALB/NLB
+ - IAM
+ - Identity Center
+ - AWS Organizations
+ - Security Groups
+ - ECS
+ - EKS
+ - ECR
+ - EC2
+ - Auto Scaling
+ - EBS
+ - EFS
+ - S3
+ - ElastiCache
+ - RDS
+ - DynamoDB
+ - OpenSearch/ElasticSearch
+ - Route 53
+ - CloudFront
+ - CloudWatch
+ - CloudTrail
+ - KMS
+ - Systems Manager
+ - Parameter Store
+ - SNS
+ - CloudFormation
+ - Workspaces
+
+Other Relevant
+ - Git
+ - GitHub
+ - GitLab
+ - Terraform/Terraform Cloud
+ - Ansible
+ - CircleCI
+ - Jenkins
+ - Docker
+ - Kubernetes
+ - Helm
+ - Rancher
+ - Prometheus
+ - Grafana
+ - REST APIs
+ - GraphQL
+ - Red Hat/Centos/Fedora
+ - Ubuntu
+ - Bash/Zsh
+ - octoDNS
+
+
+Experience
+======
+DevOps Engineer III
+Outside
+07/2021 - Ongoing
+ - Leading initiative across three separate products (Gaia GPS, FinisherPix, and AthleteReg) to modernize workloads by migrating on-prem applications into AWS through containerization and developing CI/CD workflows
+ - Designed, built, and own multiple highly available, fault tolerant, and scalable greenfield environments for both public internet-facing and private VPC-only applications and APIs running as Fargate backed ECS services in front of ElastiCache Redis and Postgres RDS clusters
+ - Fully migrated domain registration and DNS hosting of 200+ domains from dozens of registrars and DNS providers into Cloudflare without incurring downtime and deployed octoDNS using GitHub Actions to enable true GitOps management of these zones
+ - Performed IaC tool tests and adopted Terraform as the standard infrastructure provisioning tool for the Outside DevOps team, later refactoring all modules and migrating state files into Terraform Cloud enabling a GitOps practice of managing our infrastructure
+ - Manage and maintain on-premise data centers running both bare metal and VM based applications and provide design guidance on how to migrate services to AWS or configure for hybrid architectures
+ - Meet regularly with three engineers to coach them on AWS best practices around highly-available, fault tolerant, multi-tiered networks, container orchestration, CI/CD, and IaC
+ - Mentor IT staff member on how to transition into a DevOps career track
+
+DevOps Engineer
+Sprinklr
+07/2018 - 07/2021
+Austin, TX
+ - Implemented disaster recovery regions for several of our production environments with an RPO of 24 hours and an RTO of 4 hours
+ - Helped build out a FedRAMP certified environment with CIS level 1 requirements and SELinux allowing for growth of client base into the US government sector
+ - Managed server replacements and migrations while maintaining 100% uptime of services for a 24/7 high-volume, highly-available, enterprise-grade SaaS platform
+ - Incorporated automation into monitoring services which decreases the need for human intervention resulting in hours of work saved each week
+ - Regularly wrote monitoring scripts that give our team insight into how our production environment is performing and alert on conditions of varying degrees
+ - Rolled out Azure CDN to replace proxy servers in front of a blob store which resulted in cost savings and delivery of content to customers at lower latency and up to a 20x speed increase
+
+Senior IT Manager
+Sprinklr
+04/2017 - 05/2018
+ - Performed initial configuration of our Jamf Pro environment and helped plan roll-out which put 1500+ globally distributed Macs under management in less than 2 months
+ - Designed and implemented a lifecycle process for our fleet of 1500+ Macs that centered around automated deployment, maintenance, and decommissioning using Jamf Pro and Apple DEP
+ - Reduced ticket load 20% by deploying custom Bash and Python scripts to end-users' computers which proactively configured a user’s environment to avoid the most common pitfalls
+ - Packaged OS upgrades, software, fonts, and files using Jamf Composer
+ - Helped maintain and troubleshoot an AWS environment that relied on VPCs, EC2 instances, S3 buckets, and Route53 to support vital business functions
+
+IT Manager
+Sprinklr
+12/2015 - 03/2017
+ - Planned and rolled out SSO for 20+ SaaS applications to 1500+ employees using SAML 2.0 and OAuth 2.0 protocols first with Okta then later migrating to Google SAML apps
+ - Redesigned and improved reliability of Cisco Meraki network infrastructure for Austin and San Francisco offices as well as being on-call for the day to day maintenance of 17 networks worldwide
+ - Managed 5 migrations of employee email, calendar, contacts, and drive data after as acquisitions to offer a seamless transition to Sprinklr's Google Apps infrastructure
+ - Worked with vendors to trial and implement new products
+ - Provided global and local technical support for 1500+ people in 13 offices across North America, South America, Europe, and Asia
+
+IT Specialist
+Sprinklr
+01/2015 - 12/2015
+ - Managed 3 migrations of employee email, calendar, contacts, and drive data after as acquisitions to offer a seamless transition to Sprinklr's Google Apps infrastructure
+ - Supervised interdepartmental projects
+ - Worked with vendors to trial and implement new products
+ - Provided global and local technical support for 1300+ people in 13 offices across North America, South America, Europe, and Asia
+
+
+CERTIFICATIONS
+======
+Certified Solutions Architect – Associate
+AWS
+
+CCNA - Routing & Switching
+Cisco
+
+
+CURRENT STUDIES
+======
+AWS Certified Advanced Networking - Specialty Exam Prep
+
+
+LANGUAGES
+======
+Terraform/HCL
+
+Shell Scripting
+
+Ansible
+
+Python
+
+Javascript/Typescript
+
+
+Strengths
+======
+Creative
+I love creating and building new things. If I'm not making, I'm stagnating. I need to create to thrive.
+
+Passionate
+I have a strong passion for the things I care about often encouraging others with my enthusiasm.
+
+Openness
+I aim to have a growth mindset and possess a willingness to be open to any new ideas. Often the best ideas are in the places I least expect.
+
+
+Interests
+======
+Art
+I enjoy getting into the zone and painting on raw canvas. Recently, I've also been experimenting by incorporating digital tooling into my work.
+
+Apple
+I read Apple news and white papers on an almost daily basis. Keeping up with Apple and using its technologies are among my favorite things to do.
+
+Photography
+As a former professional photographer, I never stop creating new photographs. Whether with professional gear or using my iPhone it's always fun to challenge myself in new ways with photography.
+
+
+Find me online
+======
+LinkedIn
+linkedin.com/in/topherayrhart
+
