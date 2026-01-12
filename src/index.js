@@ -9,7 +9,7 @@ export default {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zain:wght@400;700&display=swap" rel="stylesheet">
-    <meta name="theme-color" content="#9E0059" />
+    <meta name="theme-color" content="#0D0106" />
     <meta name="description" content="Topher Ayrhart - DevOps Engineer building scalable infrastructure, exploring AI-augmented development, and creating." />
     <title>Topher Ayrhart</title>
     <style>
@@ -21,9 +21,9 @@ export default {
 }
 
 :root {
-  --text-color: #FFE4A0;
-  --text-title-color: #FFD580;
-  --subtitle-color: #FF8A5B;
+  --text-color: #FBFBFF;
+  --text-title-color: #FBFBFF;
+  --subtitle-color: #1D2951;
 }
 
 html {
@@ -35,7 +35,7 @@ body {
   font-family: 'Zain', -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
-  background: linear-gradient(135deg, #390099 0%, #9E0059 25%, #FF0054 50%, #FF5400 75%, #FFBD00 100%);
+  background: linear-gradient(135deg, #0D0106 0%, #3626A7 30%, #657ED4 60%, #FF331F 100%);
   background-size: 200% 200%;
   background-attachment: fixed;
   animation: gradientFlow 20s ease infinite;
