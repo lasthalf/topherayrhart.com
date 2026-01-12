@@ -15,6 +15,5 @@
     "ask": [],
     "deny": []
   },
-  "prompt": "This is a personal landing page project. Before starting work, run 'beads onboard' to understand the current project state and available beads.",
   "spinnerTipsEnabled": true
 }
