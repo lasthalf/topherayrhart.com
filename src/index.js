@@ -1,5 +1,52 @@
 export default {
   async fetch(request) {
+    // Color palettes: gradient, text, title, subtitle, themeColor
+    const palettes = [
+      {
+        name: 'Midnight Glow Party',
+        gradient: 'linear-gradient(135deg, #0D0106 0%, #3626A7 30%, #657ED4 60%, #FF331F 100%)',
+        text: '#FBFBFF',
+        title: '#FBFBFF',
+        subtitle: '#1D2951',
+        theme: '#0D0106'
+      },
+      {
+        name: 'Sunset Blaze',
+        gradient: 'linear-gradient(135deg, #390099 0%, #9E0059 25%, #FF0054 50%, #FF5400 75%, #FFBD00 100%)',
+        text: '#FFE4A0',
+        title: '#FFD580',
+        subtitle: '#FF8A5B',
+        theme: '#9E0059'
+      },
+      {
+        name: 'Ocean Depths',
+        gradient: 'linear-gradient(135deg, #0A1628 0%, #1A365D 30%, #2C5282 60%, #38B2AC 100%)',
+        text: '#E6FFFA',
+        title: '#E6FFFA',
+        subtitle: '#81E6D9',
+        theme: '#0A1628'
+      },
+      {
+        name: 'Forest Canopy',
+        gradient: 'linear-gradient(135deg, #1A1A2E 0%, #16213E 25%, #1B4332 50%, #2D6A4F 75%, #40916C 100%)',
+        text: '#D8F3DC',
+        title: '#B7E4C7',
+        subtitle: '#95D5B2',
+        theme: '#1A1A2E'
+      },
+      {
+        name: 'Aurora Borealis',
+        gradient: 'linear-gradient(135deg, #0F0F1A 0%, #1E3A5F 25%, #2E8B8B 50%, #7B68EE 75%, #FF69B4 100%)',
+        text: '#F0F8FF',
+        title: '#E0FFFF',
+        subtitle: '#B0E0E6',
+        theme: '#0F0F1A'
+      }
+    ];
+
+    // Pick a random palette
+    const palette = palettes[Math.floor(Math.random() * palettes.length)];
+
     const html = `<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,7 +56,7 @@ export default {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zain:wght@400;700&display=swap" rel="stylesheet">
-    <meta name="theme-color" content="#0D0106" />
+    <meta name="theme-color" content="${palette.theme}" />
     <meta name="description" content="Topher Ayrhart - DevOps Engineer building scalable infrastructure, exploring AI-augmented development, and creating." />
     <title>Topher Ayrhart</title>
     <style>
@@ -21,9 +68,9 @@ export default {
 }
 
 :root {
-  --text-color: #FBFBFF;
-  --text-title-color: #FBFBFF;
-  --subtitle-color: #1D2951;
+  --text-color: ${palette.text};
+  --text-title-color: ${palette.title};
+  --subtitle-color: ${palette.subtitle};
 }
 
 html {
@@ -35,7 +82,7 @@ body {
   font-family: 'Zain', -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
-  background: linear-gradient(135deg, #0D0106 0%, #3626A7 30%, #657ED4 60%, #FF331F 100%);
+  background: ${palette.gradient};
   background-size: 200% 200%;
   background-attachment: fixed;
   animation: gradientFlow 20s ease infinite;
