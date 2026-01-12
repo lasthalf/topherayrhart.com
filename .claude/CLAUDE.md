@@ -46,18 +46,17 @@ The site is served directly from Cloudflare's edge network via a Worker:
 
 **Phase**: Live - Worker deployment
 
-- Random color palette on each page load (5 palettes)
-- Animated gradient backgrounds with grain texture overlay
+- Random color palette on each page load (4 palettes)
+- Animated gradient backgrounds
 - Clean typography with Zain font
+- Keyboard switching: press 1-4 to change palette
 - Responsive design for all screen sizes
-- ~10KB total, ~3.6KB gzipped
 
 **Color Palettes:**
-- Midnight Glow Party (dark blue/purple/red)
-- Sunset Blaze (purple/pink/orange/yellow)
-- Ocean Depths (navy to teal)
-- Forest Canopy (dark blue to emerald)
-- Aurora Borealis (teal/purple/pink)
+1. Midnight Glow Party (dark blue/purple/red)
+2. Sunset Blaze (purple/pink/orange/yellow)
+3. Ocean Depths (navy to teal)
+4. Aurora Borealis (teal/purple/pink)
 
 ## Development
 
