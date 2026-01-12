@@ -8,7 +8,7 @@ export default {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zain:wght@400;700&display=swap" rel="stylesheet">
     <meta name="theme-color" content="#9E0059" />
     <meta name="description" content="Topher Ayrhart - DevOps Engineer building scalable infrastructure, exploring AI-augmented development, and creating." />
     <title>Topher Ayrhart</title>
@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Zain', -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background: linear-gradient(135deg, #390099 0%, #9E0059 25%, #FF0054 50%, #FF5400 75%, #FFBD00 100%);
@@ -95,7 +95,7 @@ body::before {
 }
 
 .hero-name {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Zain', sans-serif;
   font-size: clamp(3.5rem, 15vw, 9rem);
   font-weight: 600;
   letter-spacing: -0.045em;
@@ -105,7 +105,7 @@ body::before {
 }
 
 .hero-subtitle {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Zain', sans-serif;
   font-size: clamp(1.1rem, 3vw, 1.5rem);
   font-weight: 400;
   color: var(--subtitle-color);
