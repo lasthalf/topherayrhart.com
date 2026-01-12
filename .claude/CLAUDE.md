@@ -46,11 +46,18 @@ The site is served directly from Cloudflare's edge network via a Worker:
 
 **Phase**: Live - Worker deployment
 
-- Animated gradient background (purple → magenta → pink → orange → yellow)
-- Grain texture overlay
-- Clean typography with Inter font
+- Random color palette on each page load (5 palettes)
+- Animated gradient backgrounds with grain texture overlay
+- Clean typography with Zain font
 - Responsive design for all screen sizes
-- ~8.7KB total, ~3.2KB gzipped
+- ~10KB total, ~3.6KB gzipped
+
+**Color Palettes:**
+- Midnight Glow Party (dark blue/purple/red)
+- Sunset Blaze (purple/pink/orange/yellow)
+- Ocean Depths (navy to teal)
+- Forest Canopy (dark blue to emerald)
+- Aurora Borealis (teal/purple/pink)
 
 ## Development
 
@@ -93,4 +100,5 @@ This runs `wrangler dev` for local testing with hot reload.
 
 - The legacy `index.html` and `style.css` files are kept for reference but are not deployed
 - All content changes must be made in `src/index.js`
-- Google Fonts (Inter) is the only external dependency
+- Google Fonts (Zain) is the only external dependency
+- Color palettes are defined at the top of `src/index.js` - easy to add/modify
