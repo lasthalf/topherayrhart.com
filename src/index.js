@@ -27,14 +27,6 @@ export default {
         theme: '#0A1628'
       },
       {
-        name: 'Forest Canopy',
-        gradient: 'linear-gradient(135deg, #1A1A2E 0%, #16213E 25%, #1B4332 50%, #2D6A4F 75%, #40916C 100%)',
-        text: '#D8F3DC',
-        title: '#B7E4C7',
-        subtitle: '#95D5B2',
-        theme: '#1A1A2E'
-      },
-      {
         name: 'Aurora Borealis',
         gradient: 'linear-gradient(135deg, #0F0F1A 0%, #1E3A5F 25%, #2E8B8B 50%, #7B68EE 75%, #FF69B4 100%)',
         text: '#F0F8FF',
@@ -44,8 +36,11 @@ export default {
       }
     ];
 
-    // Pick a random palette
-    const palette = palettes[Math.floor(Math.random() * palettes.length)];
+    // Check for palette query param (?p=1-4), otherwise random
+    const url = new URL(request.url);
+    const paletteParam = url.searchParams.get('p');
+    const paletteIndex = paletteParam ? parseInt(paletteParam) - 1 : Math.floor(Math.random() * palettes.length);
+    const palette = palettes[Math.max(0, Math.min(paletteIndex, palettes.length - 1))];
 
     const html = `<!DOCTYPE html>
 <html lang="en">
@@ -101,20 +96,6 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
-
-/* Grain texture overlay */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.4;
-  z-index: 0;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='2.5' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
 /* Container */
@@ -346,6 +327,13 @@ body::before {
         <p class="contact-location">Austin, TX</p>
       </div>
     </section>
+    <script>
+      document.addEventListener('keydown', e => {
+        if (e.key >= '1' && e.key <= '4') {
+          window.location.href = '?p=' + e.key;
+        }
+      });
+    </script>
   </body>
 </html>`;
 
