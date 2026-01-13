@@ -30,40 +30,41 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: none;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 main {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 2rem 3rem;
 }
 
-.statement {
-  font-size: clamp(2.75rem, 5vw, 4rem);
-  line-height: 1.4;
-  max-width: 1100px;
+.statements {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.6;
   font-weight: 400;
 }
 
-.gif-pill {
-  display: inline-block;
-  vertical-align: middle;
-  height: 1.1em;
-  width: auto;
-  aspect-ratio: 16/9;
-  border-radius: 100px;
-  overflow: hidden;
-  margin: 0 0.1em;
-  position: relative;
-  top: -0.05em;
-}
-
-.gif-pill img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.statements p {
+  margin: 0;
+  white-space: nowrap;
 }
 
 footer {
@@ -99,7 +100,7 @@ footer {
   letter-spacing: 0.02em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) and (orientation: portrait) {
   footer {
     padding: 1.25rem 1.5rem;
   }
@@ -108,12 +109,17 @@ footer {
     padding: 2rem 1.5rem;
   }
 
-  .statement {
-    line-height: 1.5;
+  .statements {
+    font-size: 2.5rem;
   }
 
-  .gif-pill {
-    height: 1em;
+  .statements p {
+    display: inline;
+    white-space: normal;
+  }
+
+  .statements p::after {
+    content: ' ';
   }
 }
 
@@ -122,15 +128,12 @@ footer {
 
   <body>
     <main>
-      <p class="statement">
-        Topher Ayrhart. DevOps engineer building things
-        <span class="gif-pill"><img src="https://media2.giphy.com/media/l0HlJiqBpO4uYddtK/giphy.gif" alt="" /></span>
-        that build things. Makes computers do all the boring stuff
-        <span class="gif-pill"><img src="https://media.giphy.com/media/iW8tsoJWcfPc4/giphy.gif" alt="" /></span>.
-        Currently vibecoding
-        <span class="gif-pill"><img src="https://media4.giphy.com/media/3o7btNhMBytxAM6YBa/giphy.gif" alt="" /></span>
-        with AI and enjoying it way too much<span class="gif-pill"><img src="https://media3.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif" alt="" /></span>.
-      </p>
+      <div class="statements">
+        <p>Topher Ayrhart.</p>
+        <p>DevOps engineer building things that build things.</p>
+        <p>Makes computers do all the boring stuff.</p>
+        <p>Currently vibecoding with AI and enjoying it way too much.</p>
+      </div>
     </main>
 
     <footer>
