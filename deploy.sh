@@ -16,11 +16,6 @@ fi
 
 export CLOUDFLARE_API_TOKEN
 
-# Clean up Beads socket file if it exists (causes wrangler errors)
-if [ -f ".beads/bd.sock" ]; then
-  rm -f .beads/bd.sock
-fi
-
 # Check for deployment type argument
 if [ -z "$1" ]; then
   echo "Usage: ./deploy.sh [preview|prod]"
