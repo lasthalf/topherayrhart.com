@@ -21,7 +21,8 @@ Single-page portfolio site deployed as a Cloudflare Worker. The entire site (HTM
 │   └── index.js        # Worker script (entire site embedded)
 ├── deploy.sh           # Deployment script (preview/prod)
 ├── wrangler.toml       # Cloudflare Workers configuration
-├── about.md            # Professional reference (not deployed)
+├── about.md            # Professional bio reference (not deployed)
+├── README.md           # Project readme
 └── .claude/
     ├── settings.json   # Claude Code configuration
     └── CLAUDE.md       # Project instructions
