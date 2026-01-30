@@ -5,4 +5,3 @@ about.md
 deploy.sh
 wrangler.toml
 .gitignore
-.gitattributes

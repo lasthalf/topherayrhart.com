@@ -21,9 +21,7 @@ Single-page portfolio site deployed as a Cloudflare Worker. The entire site (HTM
 │   └── index.js        # Worker script (entire site embedded)
 ├── deploy.sh           # Deployment script (preview/prod)
 ├── wrangler.toml       # Cloudflare Workers configuration
-├── index.html          # Legacy static file (reference only)
-├── style.css           # Legacy static file (reference only)
-├── topher-logo.svg     # Logo asset (unused)
+├── about.md            # Professional reference (not deployed)
 └── .claude/
     ├── settings.json   # Claude Code configuration
     └── CLAUDE.md       # Project instructions
@@ -46,17 +44,10 @@ The site is served directly from Cloudflare's edge network via a Worker:
 
 **Phase**: Live - Worker deployment
 
-- Random color palette on each page load (4 palettes)
-- Animated gradient backgrounds
-- Clean typography with Zain font
-- Keyboard switching: press 1-4 to change palette
+- Minimal statement-based design
+- Cream background (#f5f5f0)
+- Instrument Serif typography (Google Fonts)
 - Responsive design for all screen sizes
-
-**Color Palettes:**
-1. Midnight Glow Party (dark blue/purple/red)
-2. Sunset Blaze (purple/pink/orange/yellow)
-3. Ocean Depths (navy to teal)
-4. Aurora Borealis (teal/purple/pink)
 
 ## Development
 
@@ -97,7 +88,5 @@ This runs `wrangler dev` for local testing with hot reload.
 
 ## Notes
 
-- The legacy `index.html` and `style.css` files are kept for reference but are not deployed
 - All content changes must be made in `src/index.js`
-- Google Fonts (Zain) is the only external dependency
-- Color palettes are defined at the top of `src/index.js` - easy to add/modify
+- Google Fonts (Instrument Serif) is the only external dependency
